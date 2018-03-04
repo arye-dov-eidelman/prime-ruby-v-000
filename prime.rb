@@ -8,4 +8,4 @@ def prime?(int)
   end
   true
 end
-puts Benchmark.measure{prime?(rand())}
+puts Benchmark.measure{puts prime?(rand())}
