@@ -8,3 +8,4 @@ def prime?(int)
   end
   true
 end
+puts Benchmark.measure{prime?(1000)}
