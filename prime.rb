@@ -7,4 +7,5 @@ def prime?(int)
   possibilities.each do |possibility|
     return false if possibility * possibility == int
   end
+  true
 end
