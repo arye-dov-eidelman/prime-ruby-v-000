@@ -1,3 +1,4 @@
+require 'benchmark'
 require 'pry'
 def prime?(int)
   return false if int < 2
