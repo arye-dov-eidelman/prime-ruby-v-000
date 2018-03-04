@@ -5,6 +5,6 @@ def prime?(int)
   return false if int < 0
   possibilities = Array (2..int)
   possibilities.each do |possibility|
-    return true if possibility * possibility == int
+    return false if possibility * possibility == int
   end
 end
