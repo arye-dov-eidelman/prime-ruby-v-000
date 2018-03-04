@@ -9,6 +9,6 @@ def prime?(int)
   true
 end
 puts Benchmark.measure{
-  puts rand
+  puts a = rand
   puts prime?(rand)
 }
