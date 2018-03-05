@@ -10,7 +10,7 @@ def prime?(int)
 end
 puts Benchmark.measure{
   5.times do
-    a = rand*1000000.flour
+    a = rand*1000000.floar
     prime?(a)
   end
 }
