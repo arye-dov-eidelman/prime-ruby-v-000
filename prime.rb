@@ -9,8 +9,8 @@ def prime?(int)
   true
 end
 puts Benchmark.measure{
-  10000.times do
-    a = rand*100
+  100.times do
+    a = rand*10000
     prime?(a)
   end
 }
