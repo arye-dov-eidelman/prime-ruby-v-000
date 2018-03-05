@@ -8,7 +8,7 @@ def prime?(int)
   end
   true
 end
-Benchmark.measure{
+puts Benchmark.measure{
   5.times do
     prime?(rand*1000000.floor)
   end
